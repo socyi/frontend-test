@@ -13,7 +13,7 @@
 
 /* section 1 */
 #section-1 {
-    height: 165vh;
+    height: 180vh;
     margin-top: -5rem;
     margin-bottom: -3rem;
     padding: 0;
@@ -110,7 +110,6 @@
 
 /* section 4 */
 #section-4 {
-    /*padding: 2rem 0;*/
     height: 57.5vh;
 }
 
@@ -298,6 +297,70 @@
     #section-2 {
         background-position: 32%;
 
+    }
+    #section-2 h1 {
+        font-size: 1.5rem;
+    }
+    #section-2 p {
+        font-size: 0.8rem;
+    }
+    .btn-custom {
+        font-size: 1rem;
+        padding: 0.5rem 0.5rem;
+    }
+    #section-3 h1 {
+        font-size: 1.5rem;
+    }
+    #section-3 h4 {
+        font-size: 0.9rem;
+    }
+    #section-4 h2 {
+        font-size: 1.2rem;
+    }
+    #section-4 p {
+        font-size: 0.8rem;
+    }
+}
+
+/* Styles for very small screens with small height also */
+@media (max-width: 400px) and (max-height: 844px) {
+    #header-section {
+        background-position: 61%;
+    }
+    #header-section h1 {
+        font-size: 1.5rem;
+        margin-top: 12rem;
+        margin-bottom: 8rem;
+    }
+    #section-1 {
+        height: 200vh;
+    }
+    #section-1 p {
+        font-size: 0.75rem;
+    }
+    #section-1 h1 {
+        font-size: 1.2rem;
+    }
+    #section-1 .btn-custom {
+        font-size: 0.85rem;
+        padding: 0.2rem 0.4rem;
+    }
+    #section-1 .col-12 {
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+        margin-bottom: 1rem;
+        max-width: calc(100% - 10px);
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #section-1 ul {
+        padding-left: 10px;
+    }
+    #section-1 li {
+        font-size: 0.8rem;
+    }
+    #section-2 {
+        background-position: 32%;
     }
     #section-2 h1 {
         font-size: 1.5rem;
